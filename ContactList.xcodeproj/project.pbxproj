@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		520FF68C28FF054900E7A5E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520FF68B28FF054900E7A5E3 /* AppDelegate.swift */; };
 		520FF68E28FF054900E7A5E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520FF68D28FF054900E7A5E3 /* SceneDelegate.swift */; };
-		520FF69028FF054900E7A5E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520FF68F28FF054900E7A5E3 /* ViewController.swift */; };
 		520FF69328FF054900E7A5E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520FF69128FF054900E7A5E3 /* Main.storyboard */; };
 		520FF69528FF054B00E7A5E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520FF69428FF054B00E7A5E3 /* Assets.xcassets */; };
 		520FF69828FF054B00E7A5E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520FF69628FF054B00E7A5E3 /* LaunchScreen.storyboard */; };
+		520FF6A028FF05B800E7A5E3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520FF69F28FF05B800E7A5E3 /* Person.swift */; };
+		520FF6A428FF1BA700E7A5E3 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520FF6A328FF1BA700E7A5E3 /* ContactTableViewController.swift */; };
+		520FF6A828FF201A00E7A5E3 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520FF6A728FF201A00E7A5E3 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		520FF68828FF054900E7A5E3 /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		520FF68B28FF054900E7A5E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		520FF68D28FF054900E7A5E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		520FF68F28FF054900E7A5E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		520FF69228FF054900E7A5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		520FF69428FF054B00E7A5E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		520FF69728FF054B00E7A5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		520FF69928FF054B00E7A5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520FF69F28FF05B800E7A5E3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		520FF6A328FF1BA700E7A5E3 /* ContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
+		520FF6A728FF201A00E7A5E3 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				520FF68B28FF054900E7A5E3 /* AppDelegate.swift */,
 				520FF68D28FF054900E7A5E3 /* SceneDelegate.swift */,
-				520FF68F28FF054900E7A5E3 /* ViewController.swift */,
+				520FF6A328FF1BA700E7A5E3 /* ContactTableViewController.swift */,
+				520FF6A728FF201A00E7A5E3 /* TabBarViewController.swift */,
 				520FF69128FF054900E7A5E3 /* Main.storyboard */,
+				520FF69F28FF05B800E7A5E3 /* Person.swift */,
 				520FF69428FF054B00E7A5E3 /* Assets.xcassets */,
 				520FF69628FF054B00E7A5E3 /* LaunchScreen.storyboard */,
 				520FF69928FF054B00E7A5E3 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				520FF69028FF054900E7A5E3 /* ViewController.swift in Sources */,
+				520FF6A428FF1BA700E7A5E3 /* ContactTableViewController.swift in Sources */,
 				520FF68C28FF054900E7A5E3 /* AppDelegate.swift in Sources */,
+				520FF6A028FF05B800E7A5E3 /* Person.swift in Sources */,
+				520FF6A828FF201A00E7A5E3 /* TabBarViewController.swift in Sources */,
 				520FF68E28FF054900E7A5E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
