@@ -8,12 +8,9 @@
 import UIKit
 
 class ContactTableViewController: UITableViewController {
-    private var persons = Person.getPerson()
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        tableView.rowHeight = 50
-    }
+    
+    //MARK: - Public Properties
+    var persons: [Person]!
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

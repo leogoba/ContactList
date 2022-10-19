@@ -48,7 +48,7 @@ class DataStore {
     let emailsList: [String] = [
         "qqqq@mail.ru",
         "wwww@mail.ru",
-        "eeee@mail,ru",
+        "eeee@mail.ru",
         "rrrr@mail.ru",
         "tttt@mail.ru",
         "yyyy@mail.ru",
