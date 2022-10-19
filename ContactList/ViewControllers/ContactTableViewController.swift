@@ -12,8 +12,7 @@ class ContactTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.rowHeight = 60
-        navigationItem.leftBarButtonItem = editButtonItem
+        tableView.rowHeight = 50
     }
 
     // MARK: - Table view data source
@@ -36,14 +35,9 @@ class ContactTableViewController: UITableViewController {
         performSegue(withIdentifier: "showDetails", sender: info)
     }
     
-    
-    
-    
-    
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let detailInfoVC = segue.destination as? DetailedInfoViewController else { return }
         detailInfoVC.info = sender as? Person
     }
-
 }

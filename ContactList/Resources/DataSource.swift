@@ -15,7 +15,8 @@ class DataStore {
         "Ted",
         "Bruce",
         "Carl",
-        "Allan"
+        "Allan",
+        "Tim"
     ]
     
     let lastNamesList: [String] = [
@@ -27,7 +28,8 @@ class DataStore {
         "Butler",
         "Isaacson",
         "Smith",
-        "Pennyworth"
+        "Pennyworth",
+        "Dow"
     ]
     
     let phoneNumbersList: [String] = [
