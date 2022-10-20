@@ -69,7 +69,7 @@
 				527957B9290086D3004ADF8F /* App */,
 				527957B8290086C0004ADF8F /* Storyboards */,
 				521AC2BE2900399E00A21DE1 /* ViewControllers */,
-				521AC2BB290033B800A21DE1 /* Resources */,
+				521AC2BB290033B800A21DE1 /* Services */,
 				521AC2BA290033AC00A21DE1 /* Models */,
 				520FF69428FF054B00E7A5E3 /* Assets.xcassets */,
 			);
@@ -84,12 +84,12 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		521AC2BB290033B800A21DE1 /* Resources */ = {
+		521AC2BB290033B800A21DE1 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				521AC2BC290033D200A21DE1 /* DataSource.swift */,
 			);
-			path = Resources;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		521AC2BE2900399E00A21DE1 /* ViewControllers */ = {

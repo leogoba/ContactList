@@ -6,7 +6,7 @@
 //
 
 class DataStore {
-    let firstNamesList: [String] = [
+    let firstNamesList = [
         "John",
         "Sharon",
         "Aaron",
@@ -19,7 +19,7 @@ class DataStore {
         "Tim"
     ]
     
-    let lastNamesList: [String] = [
+    let lastNamesList = [
         "Murphy",
         "Jankin",
         "Williams",
@@ -32,7 +32,7 @@ class DataStore {
         "Dow"
     ]
     
-    let phoneNumbersList: [String] = [
+    let phoneNumbersList = [
         "11111111",
         "22222222",
         "33333333",
@@ -45,7 +45,7 @@ class DataStore {
         "00000000"
     ]
     
-    let emailsList: [String] = [
+    let emailsList = [
         "qqqq@mail.ru",
         "wwww@mail.ru",
         "eeee@mail.ru",

@@ -7,8 +7,6 @@
 
 import UIKit
 
-import UIKit
-
 class TabBarViewController: UITabBarController {
     
     private let persons = Person.getPerson()
@@ -30,8 +28,7 @@ class TabBarViewController: UITabBarController {
         viewControllers.forEach { viewController in
             if let contactTableVC = viewController as? ContactTableViewController {
                 contactTableVC.persons = persons
-            }
-            if let personSectionVC = viewController as? PersonSectionTableViewController {
+            } else if let personSectionVC = viewController as? PersonSectionTableViewController {
                 personSectionVC.persons = persons
             }
         }
