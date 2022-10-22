@@ -15,6 +15,7 @@ class TabBarViewController: UITabBarController {
         super.viewDidLoad()
         tabBarSetting()
         prepareVCs()
+        print("dsfsdf")
     }
     
     private func tabBarSetting() {
